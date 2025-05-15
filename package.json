@@ -1,5 +1,5 @@
 {
-"name": "MOVIE-VISPER MD",    
+"name": "〽𝗗𝗮𝗿𝗸 𝗦𝗵𝗮𝗱𝗼𝘄ᵀᴹ",    
 "version": "1.0.0",
 "scripts": {
 "start": "pm2 start index.js --deep-monitoring --attach --name Movie-Visper",
