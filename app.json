@@ -1,32 +1,31 @@
 {
-    "name": "MOVIE-VISPER",
-    "description": "This is a 3ʳᵈ Party Application software for WhatsApp with Many Feature & many Commands",
-    "repository": "https://github.com/sadasthemi/MOVIE-VISPER",
-    "logo": "https://mv-visper-full-db.pages.dev/Data/visper_main.jpeg",
-    "keywords": [
-        "nodejs",
-        "Bot",
-        "WhatsApp Bot",
-        "WhatsApp Automation",
-        "Multi Device"
-    ],
-    "env": {
-        "SESSION_ID": {
-            "description": "Type the Session-ID",
-            "required": true,
-            "value": ""
-        }
+  "name": "〽𝗗𝗮𝗿𝗸 𝗦𝗵𝗮𝗱𝗼𝘄ᵀᴹ",
+  "description": "Powerful whatsapp bot made by Inesh",
+  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "Put your alive img here.",
+      "required": true
     },
-    "buildpacks": [
+    
+    "ALIVE_MSG": {
+      "description": "Put your alive msg here.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-        },
-        {
-            "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
         }
-    ],
-      "stack": "heroku-22"
+     ],
+  "stack": "heroku-24"
 }
